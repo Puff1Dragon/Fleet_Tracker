@@ -11,7 +11,13 @@ namespace WIL_Prototype_ASP
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //test
 
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Button1.Text = "test";
         }
     }
 }

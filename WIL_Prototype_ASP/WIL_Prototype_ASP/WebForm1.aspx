@@ -22,11 +22,12 @@
 
 		<div class="design-w3l">
 			<div class="mail-form-agile">
-				<form action="#" method="post">
+				</div>
 					<input type="text" name="name" placeholder="User Name  or  email..." required=""/>
 					<input type="password"  name="password" class="padding" placeholder="Password" required=""/>
 					<input type="submit" value="login">
-				</form>
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+    </form>
 			</div>
 		  <div class="clear"> </div>
 		</div>
